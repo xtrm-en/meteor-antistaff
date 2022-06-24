@@ -1,25 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "meteor-antistaff",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Meteor Anti Staff",
+  "description": "Detect player logins on servers with poorly-configured vanish plugins.",
   "authors": [
-    "seasnail8169"
+    "xtrm <oss@xtrm.me>"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/xtrm-en/meteor-antistaff"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "dummy.addon.template.TemplateAddon"
+      "me.xtrm.meteorclient.antistaff.AntiStaffAddon"
     ]
   },
-  "mixins": [
-    "template.mixins.json"
-  ],
   "custom": {
     "meteor-client:color": "225,25,25"
   },
